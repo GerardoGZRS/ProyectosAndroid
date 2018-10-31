@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SAEC Registro</string>
+    <string name="detalles">Matricula escaneada:</string>
+    <string name="matricula">Matricula</string>
+    <string name="Scaneo">Escanear credencial de alumno</string>
+    <string name="title_activity_registrar">Funcionalidad</string>
+    <string name="title_activity_registrar_entrada">Ingreso al plantel</string>
+    <string name="title_activity_registrar_salida">Salida del plantel</string>
+    <string name="title_activity_reporte">generar reporte</string>
+    <string name="title_activity_salir">Cerrar aplicación</string>
+    <string name="title_entrada">Ingresos</string>
+    <string name="title_inicio">Bienvenido</string>
+    <string name="title_reporte">Reportes</string>
+    <string name="title_salida">Salidas</string>
+    <string name="title_salir">Salir</string>
+    <string name="obtener_reporte">Obtener Reporte</string>
+    <string name="detalle">
+<![CDATA[
+    Bienvenido
+    a su aplicación.<br><br>
+    <b>SAEC MÓVIL</b> le permite monitorear la hora de entrada y la hora de salida<br><br>
+    Viaje a por la información de su instituto través del menú inferior.
+]]>
+</string>
+</resources>
