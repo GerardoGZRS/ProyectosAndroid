@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_superior_usuario"
+        android:icon="@drawable/minicorreo"
+        android:title="Item"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_superior_chat"
+        android:icon="@drawable/chat"
+        android:title="Item"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_superior_user"
+        android:title="@string/menu_usuario" />
+
+    <item
+        android:id="@+id/menu_superior_contraseña"
+        android:title="@string/menu_contraseña" />
+
+</menu>

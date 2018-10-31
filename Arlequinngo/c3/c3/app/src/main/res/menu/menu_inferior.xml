@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_inf_regresar"
+        android:icon="@drawable/volver2"
+        android:title="@string/title_regresar" />
+
+    <item
+        android:id="@+id/menu_inf_usuario"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_inicio" />
+
+    <item
+        android:id="@+id/menu_inf_dictar"
+        android:icon="@drawable/miniedita"
+        android:title="@string/title_redactar" />
+
+    <item
+        android:id="@+id/menu_inf_pdf"
+        android:icon="@drawable/libriminimorado"
+        android:title="@string/title_pdf" />
+
+    <item
+        android:id="@+id/menu_inf_salir"
+        android:icon="@drawable/finish"
+        android:title="@string/title_salir" />
+
+</menu>

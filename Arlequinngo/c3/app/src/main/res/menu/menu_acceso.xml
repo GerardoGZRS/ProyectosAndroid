@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mx.com.otss.c1">
+
+    <item
+        android:id="@+id/menu_acce_regresar_portada"
+        android:icon="@drawable/volver"
+        android:title="Item"
+        app:showAsAction="always" />
+</menu>

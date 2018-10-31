@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Arlequinngo</string>
+    <string name="Apellido_paterno">Apellido Paterno</string>
+    <string name="Apellido_materno">Apellido Materno</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="cerrar_sesion1">¿Cambiaste tu nombre de usuario? o ¿Modificaste tu contraseña de acceso?</string>
+    <string name="cerrar_sesion2">Cada que modifiques tus datos, o salgas de esta aplicacion, debes cerrar sesión, ya
+        que de lo contrario y por tu seguridad, NO PODRÁS ACCEDER</string>
+    <string name="cerrar_sesion3"></string>
+    <string name="confirmacion">Confirmación de registro</string>
+    <string name="confirmado">Hemos recibido tu informacion, revisa tu correo, enviaremos las instrucciones
+        desde la dirección siguiente:</string>
+    <string name="dictar">Ingrerse su texto y oprima los botones para escuchar o detener la reproduccion</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="contraseña_nueva">Ingrese su nueva contraseña</string>
+    <string name="contraseña_validada">Confirme su contraseña</string>
+    <string name="email">Correo electrónico</string>
+    <string name="enviar_datos">Enviar Datos</string>
+    <string name="gracias">En caso de no aparecer nada en tu bandeja de entrada, por favor revisa tu
+        carpeta de correo no deseado.</string>
+    <string name="inicio_acceder">Acceder al sistema</string>
+    <string name="iniciar_sesion">Iniciar sesion</string>
+    <string name="inicio_de_sesion">Inicio de sesion</string>
+    <string name="item">Item</string>
+    <string name="menu_contraseña">Restaurar contraseña</string>
+    <string name="menu_usuario">Modificar nombre de usuario</string>
+    <string name="mensaje_inicial">Aplicación personal de lectura</string>
+    <string name="Nombre">Nombre completo</string>
+    <string name="nombreusuario">Nombre de Usuario</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="regresar">Regresar</string>
+    <string name="regresar_a_logueo">Regresar a inicio de sesión</string>
+    <string name="remitente">otsscom@rscp16010.myhostingpack.com></string>
+    <string name="salir">Cerrar sesion en Arlequinngo</string>
+    <string name="salir_portada">Salir</string>
+    <string name="telefono">Teléfono</string>
+    <string name="title_activity_audios">Audios Arlequinngo</string>
+    <string name="title_activity_chat">Foro Arlequinngo</string>
+    <string name="title_activity_confirmacion">Confirmacion de registro</string>
+    <string name="title_activity_dictar">Ingrese su texto</string>
+    <string name="title_activity_imagenes">Imágenes Arlequinngo</string>
+    <string name="title_activity_listado_pdf">PDF OTS Online</string>
+    <string name="title_activity_login">Inicio de sesión</string>
+    <string name="title_activity_pdf">Documentos en Línea</string>
+    <string name="title_activity_registro">Comunidad Arlequinngo</string>
+    <string name="title_activity_res_usuario">Modificar usuario</string>
+    <string name="title_activity_res_contrasena">Modificar Contraseña</string>
+    <string name="title_activity_salir">Cerrar sesión</string>
+    <string name="title_activity_usuario">Contenidos</string>
+    <string name="title_inicio">Inicio</string>
+    <string name="title_pdf">Reglamentos Digitales</string>
+    <string name="title_redactar">Redactar</string>
+    <string name="title_regresar">Volver</string>
+    <string name="title_salir">Salir</string>
+    <string name="usuario">Usuario</string>
+    <string name="usuario_nuevo">Ingrese su nuevo usuario</string>
+    <string name="usuario_validado">Confirme su usuario</string>
+    <string name="contentActivity">
+        <![CDATA[
+    Bienvenido a su aplicación.<br><br>
+    <b>ARLEQUINNGO MÓVIL</b> le permite visualizar sus documentos desde la palma de su mano y además ofrece la posibilidad de escucharlos sin la necesidad de leer permitiendole realizar otras actividades.
+]]>
+    </string>
+</resources>

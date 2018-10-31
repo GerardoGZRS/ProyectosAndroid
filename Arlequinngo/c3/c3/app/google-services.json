@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "869541118454",
+    "firebase_url": "https://perro-4b264.firebaseio.com",
+    "project_id": "perro-4b264",
+    "storage_bucket": "perro-4b264.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869541118454:android:902da714541d64b2",
+        "android_client_info": {
+          "package_name": "mx.com.otss.c3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869541118454-l6jh48oem5qa948t4cqg9rhh9aqme0ka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVMUiVdXWiunuLGJveTGGWEbPxDTeOldY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

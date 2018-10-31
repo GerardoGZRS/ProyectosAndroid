@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Contacto</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" src="css/menu.js"></script>
+	<style type="text/css">
+    body {
+    background: url(img/fondo.jpg) no-repeat center center fixed;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+</style>
+</head>
+<body>
+	    	<!-- Menú -->
+	<header>
+		<div class="menu_bar">
+			<a href="#" class="bt-menu"><span class="icon-menu"></span></a>
+		</div>
+		<nav>
+		<ul>
+		<li><a href="index.html"><span class="icon-home"></span><font size=4 style="text-shadow: 5px 5px 5px #aaa;">Inicio</font></a></li>
+		<li><a href="equipo.html"><span class="icon-users"></span><font size=4 style="text-shadow: 5px 5px 5px #aaa;">Equipo de Trabajo</font></a></li>
+		<li><a href="servicios.html"><span class="icon-office"></span><font size=4 style="text-shadow: 5px 5px 5px #aaa;">¿Qué hacemos?</font></a></li>
+		<li><a href="contacto.html"><span class="icon-address-book"></span><font size=4 style="text-shadow: 5px 5px 5px #aaa;">Contacto</font></a></li>
+		<li><a href=""><span class="icon-profile"></span><font size=4 style="text-shadow: 5px 5px 5px #aaa;">Blog</font></a></li>
+		</ul>
+		</nav>
+	</header>
+	<!--End Menú -->
+<div class="main3">
+<section id="contenido3">
+
+</section>    
+<section id="contenido2">
+<!-- Start -->
+<article id="contenidoInd" ><center>  
+<h1></h1>
+<a href="#modal1" id="btnComienza">¡Contáctanos!</a>
+</center>	
+</article>
+<br>
+<div  align="center" style="width: 100%; height: 100%;">
+
+<iframe 
+src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15013.336928391036!2d-98.98785700000002!3d19.825806!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa266c8404a9e0eb4!2sOTS!5e0!3m2!1ses!2sus!4v1523036840010" width="400" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  
+</div>
+<!-- end -->
+</section>
+</div>            
+	
+    <div class="social">
+    <ul>
+<li><a href="https://www.facebook.com/otss.com.mx/" target="_blank" class="icon-facebook"></a></li>
+<li><a href="" target="_blank" class="icon-twitter"></a></li>
+<li><a href="" target="_blank" class="icon-google-plus"></a></li>
+<li><a href="" target="_blank" class="icon-youtube"></a></li>
+<li><a href="" target="_blank" class="icon-mail"></a></li>
+    </ul>    
+    </div>
+
+<!--Ventana model-->
+    <div id="modal1" class="modalmask">
+		<div class="modalbox movedown">
+			<div class="titleform">
+				¡Contáctanos!
+				<a href="#close" title="Cerrar" class="close" onclick="cancelar()">X</a><br>
+			</div>
+			<div class="form">
+                <form method="post" action="php/registro.php">
+                <table cellpadding="0" cellspacing="0">
+                    <tr>
+					<td class="tl">Nombre (s):</td>	
+	                <td><input type="text" id="estCaja" name='nombre' required placeholder="Ingrese su(s) nombre(s)"></td>	
+					</tr>
+                    <tr>	
+                    <td class="tl">Correo:</td>
+                    <td><input type="email" id="estCaja" name='correo' required placeholder="Ingrese un correo de Gmail"></td>
+                    </tr>
+                    <tr>
+                    <td class="tl">¿En qué podemos ayudarte?</td>
+                    <td><textarea id="opinion" name="opinion" placeholder="Escribe en qué podemos ayudarte"></textarea></td> 
+                    </tr>
+                    <tr>
+                     	<td colspan="4"><center><input type="submit" value="Enviar"></center></td>
+                    </tr>
+				</table>
+                </form>
+				</div>
+		</div>
+		</div> 
+<footer>
+
+<div class="container-footer-all">    
+<div class="container-footer">
+            <div class="footer">
+                <div class="copyright">
+                <span class="icon-copyright"></span><font size=1 style="text-align: left; text-shadow: 1px 1px 1px #aaa;" >2018 Todos los Derechos Reservados | <a href="">ventas@otss.com.mx</a> | <a href=""> 779 796 6523</a></font>
+            </div>
+        
+            <div class="informacion">
+            <font size="1" style="text-shadow: 1px 1px 1px #aaa;">
+                <a href="">Términos y Condiciones</a> |
+                <a href="">Privación y Política</a>
+            </font>
+            </div>
+            </div>
+</div>
+</div>    
+</footer>      
+</body>    
+</html>
