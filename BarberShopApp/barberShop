@@ -1,0 +1,12 @@
+
+create table turno(idTurno int primary key auto_increment, idEmpleado int, tiempo datetime, idLocalidad int, foreign key(idEmpleado) references empleado(idEmpleado), foreign key(idLocalidad) references Localidad(idLocalidad));
+
+
+create table cortesia(idCortesia int primary key auto_increment, nombreCortesia varchar(50), tipoCortesia varchar(28), totalCortesia int, idLocalidad int, idEmpleado int);
+
+create table comisiones(idComision int primary key auto_increment, idEmpleado int, tipoComision varchar(50), valorComision varchar(20));
+create table servicios(idServicio int primary key auto_increment, nombreServicio varchar(120), precio varchar(25), imagen blob, idTipoCliente int);
+
+create table citas(idCita int primary key auto_increment, idCliente int, idServicio int, idLocalidad int, idEmpleado int, fecha datetime);
+create table detallePago(idIngreso int primary key auto_increment, idCita int, formaPago varchar(50), total int, totalPago varchar(50));
+

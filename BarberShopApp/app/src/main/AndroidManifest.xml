@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.com.otss.barbershopapp">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.PortadaBienvenidaActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.empleados.InsertarEmpleadosActivity"
+            android:label="Insertar Empleados" />
+        <activity
+            android:name=".activities.empleados.ActualizarEmpleadoActivity"
+            android:label="Actualizar Empleados" />
+        <activity
+            android:name=".activities.empleados.ConsultarEmpleadoActivity"
+            android:label="Consulta Empleado" />
+        <activity
+            android:name=".activities.empleados.EliminarEmpleadoActivity"
+            android:label="Eliminar Empleado" />
+        <activity
+            android:name=".activities.servicios.ActualizarServiciosActivity"
+            android:label="Actualizar Servicios" />
+        <activity
+            android:name=".activities.servicios.EliminarServiciosActivity"
+            android:label="Eliminar Servicios" />
+        <activity
+            android:name=".activities.servicios.ConsultarServiciosActivity"
+            android:label="Consultar Servicios" />
+        <activity
+            android:name=".activities.servicios.InsertarServiciosActivity"
+            android:label="Insertar Servicios" />
+        <activity
+            android:name=".activities.menu_inferior.PrincipalServiciosActivity"
+            android:label="Servicios" />
+        <activity
+            android:name=".activities.franquicias.InsertarFranquiciasActivity"
+            android:label="Insertar Franquicias" />
+        <activity
+            android:name=".activities.franquicias.ConsultaFranquiciasActivity"
+            android:label="Consulta Franquicias" />
+        <activity
+            android:name=".activities.franquicias.EliminarFranquiciasActivity"
+            android:label="Eliminar Franquicias" />
+        <activity
+            android:name=".activities.menu_inferior.PrincipalFranquiciasActivity"
+            android:label="Franquicias" />
+        <activity
+            android:name=".activities.franquicias.ActualizarFranquiciaActivity"
+            android:label="Actualizar Franquicias" />
+        <activity
+            android:name=".activities.pagos.ConsultaPagosActivity"
+            android:label="Consulta Pagos" />
+        <activity
+            android:name=".activities.pagos.ConsultaPagoCitaActivity"
+            android:label="Consulta Pagos Cita" />
+        <activity
+            android:name=".activities.promociones.ConsultaPromocionActivity"
+            android:label="Consulta Promociones" />
+        <activity
+            android:name=".activities.promociones.ConsultaPromocionFranquiciaActivity"
+            android:label="Consulta Promocion Franquicia" />
+        <activity
+            android:name=".activities.cortesias.ConsultaCortesiaActivity"
+            android:label="Consulta Cortesia" />
+        <activity
+            android:name=".activities.cortesias.ConsultaCortesiaEmpleadoActivity"
+            android:label="Consulta Cortesia Empleado" />
+        <activity
+            android:name=".activities.comisiones.ConsultaComisionesActivity"
+            android:label="Consulta Comisiones" />
+        <activity
+            android:name=".activities.clientes.ConsultaClientesActivity"
+            android:label="Consulta Clientes" />
+        <activity
+            android:name=".activities.clientes.BuscarClienteFranquiciaActivity"
+            android:label="Consulta Cliente Franquicia" />
+        <activity
+            android:name=".activities.clientes.ClientesClasificacionActivity"
+            android:label="Clientes Clasificacion" />
+        <activity
+            android:name=".activities.clientes.PrincipalClientesActivity"
+            android:label="Clientes" />
+        <activity
+            android:name=".activities.clientes.ResultadoClasificacionActivity"
+            android:label="Resultado Clasificacion Clientes" />
+        <activity
+            android:name=".activities.clientes.ResultadoFranquiciaActivity"
+            android:label="Resultado Franquicia" />
+        <activity
+            android:name=".activities.comisiones.ConsultaEmpleadoComisionesActivity"
+            android:label="Consulta Empleado Comision" />
+        <activity
+            android:name=".activities.menu_inferior.ListadosActivity"
+            android:label="Listados" />
+        <activity
+            android:name=".activities.menu_inferior.ReportesActivity"
+            android:label="Reportes" />
+        <activity
+            android:name=".activities.citas.ConsultaCitasActivity"
+            android:label="Consulta Citas" />
+        <activity
+            android:name=".activities.citas.MenuCitasActivity"
+            android:label="Citas" />
+        <activity
+            android:name=".activities.comisiones.MenuComisionesActivity"
+            android:label="Comisiones" />
+        <activity
+            android:name=".activities.cortesias.MenuCortesiasActivity"
+            android:label="Cortesias" />
+        <activity
+            android:name=".activities.pagos.MenuPagosActivity"
+            android:label="Pagos" />
+        <activity
+            android:name=".activities.promociones.MenuPromocionesActivity"
+            android:label="Promociones" />
+        <activity
+            android:name=".activities.comisiones.ResultadoComisionEmpleadoActivity"
+            android:label="Resulta Comisiones Empleado" />
+        <activity
+            android:name=".activities.cortesias.ResultadoCortesiaEmpleadoActivity"
+            android:label="Resultado Cortesia Empleado" />
+        <activity
+            android:name=".activities.pagos.ResultadoPagoCitaActivity"
+            android:label="Resultado Pago Cita" />
+        <activity
+            android:name=".activities.promociones.ResultadoPromocionActivity"
+            android:label="Resultado Promocion" />
+        <activity
+            android:name=".activities.reportes.ReporteCitasActivity"
+            android:label="Reportes Citas" />
+        <activity
+            android:name=".activities.reportes.ReporteControlTurnosActivity"
+            android:label="Reporte Control Turnos" />
+        <activity
+            android:name=".activities.reportes.ReportsCortesiasActivity"
+            android:label="Reportes Cortesias" />
+        <activity
+            android:name=".activities.reportes.ReportePromocionesAcivity"
+            android:label="Reporte Promociones" />
+        <activity
+            android:name=".activities.reportes.ReportePromocionCorteActivity"
+            android:label="Reportes Promociones Cortesias" />
+        <activity
+            android:name=".activities.reportes.ReporteActivity"
+            android:label="Menu Reportes" />
+        <activity
+            android:name=".activities.menu_inferior.PrincipalEmpleadosActivity"
+            android:label="Empleados" />
+
+        <provider
+            android:name=".utils.GenericFileProvider"
+            android:authorities="${applicationId}.mx.com.otss.barbershopapp"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity android:name=".activities.comisiones.InsertarComisionesActivity" android:label="Insertar Comisiones"/>
+        <activity android:name=".activities.comisiones.ActualizarComisionesActivity" android:label="Actualizar Comisiones"/>
+        <activity android:name=".activities.comisiones.EliminarComisionesActivity" android:label="Eliminar Comisiones"/>
+        <activity android:name=".activities.promociones.AgregarPromocionesActivity" android:label="Agregar Promociones"/>
+        <activity android:name=".activities.promociones.EliminarPromocionesActivity" android:label="Eliminar Promociones"/>
+        <activity android:name=".activities.promociones.ActualizarPromocionesActivity" android:label="Actualizar Promociiones"/>
+        <activity android:name=".activities.cortesias.AgregarCortesiasActivity" android:label="Agregar Cortesias"/>
+        <activity android:name=".activities.cortesias.ActualizarCortesiasActivity" android:label="Actualizar Cortesias"/>
+        <activity android:name=".activities.cortesias.EliminarCortesiasActivity" android:label="Eliminar Cortesias"/>
+        <activity android:name=".activities.reportes.ReporteHorariosActivity" android:label="Reporte Horarios"/>
+        <activity android:name=".activities.pagos.InsertarPagoEmpleadoActivity" android:label="Seleccionar"/>
+        <activity android:name=".activities.pagos.AgregarPagosEmpleadoActivity" android:label="Agregar Pago Empleados"/>
+        <activity android:name=".activities.reportes.ReportePagosEmpleadosActivity" android:label="Reporte Pago Empleados"></activity>
+    </application>
+
+</manifest>

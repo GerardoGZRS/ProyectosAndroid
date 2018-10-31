@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_inferior_empleados"
+        android:icon="@drawable/empleados"
+        android:title="Empleados" />
+    <item
+        android:id="@+id/menu_inferior_servicios"
+        android:icon="@drawable/service"
+        android:title="Servicios" />
+    <item
+        android:id="@+id/menu_inferior_franquicias"
+        android:icon="@drawable/franquicias"
+        android:title="Sucursales" />
+    <item
+        android:id="@+id/menu_inferior_listados"
+        android:icon="@drawable/listados"
+        android:title="Otros" />
+    <item
+        android:id="@+id/menu_inferior_reportes"
+        android:icon="@drawable/pdf"
+        android:title="Reportes" />
+</menu>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.cortesias.AgregarCortesiasActivity">
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="5dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintBottom_toTopOf="@id/navigation"
+        android:layout_marginBottom="5dp"
+        >
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/textNombreCortesia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre Cortesia"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="5dp"
+                app:layout_constraintTop_toBottomOf="@+id/txtNombreCortesia"
+                app:layout_goneMarginBottom="5dp"
+                />
+
+            <EditText
+                android:id="@+id/txtNombreCortesia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                app:layout_constraintTop_toBottomOf="@id/textNombreCortesia"
+                android:layout_marginTop="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/textTipoCortesia"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/textTipoCortesia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tipo Cortesia"
+                app:layout_constraintTop_toBottomOf="@id/txtNombreCortesia"
+                android:layout_marginTop="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/txtTipoCortesia"
+                android:layout_marginBottom="5dp"
+                />
+
+            <EditText
+                android:id="@+id/txtTipoCortesia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                app:layout_constraintTop_toBottomOf="@+id/textTipoCortesia"
+                android:layout_marginTop="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/textTotalCortesia"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/textTotalCortesia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Cortesia"
+                app:layout_constraintTop_toBottomOf="@+id/txtTipoCortesia"
+                android:layout_marginTop="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/txtTotalCortesia"
+                android:layout_marginBottom="5dp"
+                />
+
+            <EditText
+                android:id="@+id/txtTotalCortesia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                app:layout_constraintTop_toBottomOf="@+id/textTotalCortesia"
+                android:layout_marginTop="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/textLocalidad"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/textLocalidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Localidad"
+                app:layout_constraintTop_toBottomOf="@+id/txtTotalCortesia"
+                android:layout_marginTop="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/txtLocalidad"
+                android:layout_marginBottom="5dp"
+                />
+
+            <EditText
+                android:id="@+id/txtLocalidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/textLocalidad"
+                android:layout_marginTop="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/textNombreEmpleado"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/textNombreEmpleado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre Empleado"
+                app:layout_constraintTop_toBottomOf="@+id/txtLocalidad"
+                android:layout_marginTop="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/spinnerEmpleados"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinnerEmpleados"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/textNombreEmpleado"
+                android:layout_marginTop="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="5dp"/>
+
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fBtnAgregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/agregar"
+        android:theme="@style/MyFloatingButton"
+        app:rippleColor="@color/colorMadera"
+        app:layout_constraintBottom_toTopOf="@id/navigation"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="10dp"
+        />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/menu_inferior" />
+
+</android.support.constraint.ConstraintLayout>

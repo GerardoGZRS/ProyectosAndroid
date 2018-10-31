@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.pagos.AgregarPagosEmpleadoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/navigation"
+        android:layout_marginBottom="5dp"
+        >
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textDetallePago"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Detalle Pago Empleado"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="5dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="5dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/textHorasTrabajadas"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/textHorasTrabajadas"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Horas Trabajadas"
+            app:layout_constraintTop_toBottomOf="@+id/textDetallePago"
+            android:layout_marginTop="5dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/txtHorasTrabajadas"
+            android:layout_marginBottom="5dp"
+            />
+
+        <EditText
+            android:id="@+id/txtHorasTrabajadas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            app:layout_constraintTop_toBottomOf="@+id/textHorasTrabajadas"
+            android:layout_marginTop="5dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="5dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/textTotalPago"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/textTotalPago"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Total Pago"
+            app:layout_constraintTop_toBottomOf="@+id/txtHorasTrabajadas"
+            android:layout_marginTop="5dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/txtTotalPago"
+            android:layout_marginBottom="5dp"
+            />
+
+        <EditText
+            android:id="@+id/txtTotalPago"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            app:layout_constraintTop_toBottomOf="@+id/textTotalPago"
+            android:layout_marginTop="5dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="5dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/textDiasTrabajados"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/textDiasTrabajados"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Dias Trabajados"
+            app:layout_constraintTop_toBottomOf="@+id/txtTotalPago"
+            android:layout_marginTop="5dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/txtDiasTrabajados"
+            android:layout_marginBottom="5dp"
+            />
+
+        <EditText
+            android:id="@+id/txtDiasTrabajados"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            app:layout_constraintTop_toBottomOf="@+id/textDiasTrabajados"
+            android:layout_marginTop="5dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="5dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/textTotalComision"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/textTotalComision"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Total Comision"
+            app:layout_constraintTop_toBottomOf="@+id/txtDiasTrabajados"
+            android:layout_marginTop="5dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/txtTotalComision"
+            android:layout_marginBottom="5dp"
+            />
+
+        <EditText
+            android:id="@+id/txtTotalComision"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            app:layout_constraintTop_toBottomOf="@+id/textTotalComision"
+            android:layout_marginTop="5dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="5dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/textPagoComision"
+            android:layout_marginBottom="5dp"
+
+            />
+
+        <TextView
+            android:id="@+id/textPagoComision"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Pago Comision"
+            app:layout_constraintTop_toBottomOf="@+id/txtTotalComision"
+            android:layout_marginTop="5dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="5dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/txtPagoComision"
+            android:layout_marginBottom="5dp"
+            />
+
+        <EditText
+            android:id="@+id/txtPagoComision"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            app:layout_constraintTop_toBottomOf="@+id/textPagoComision"
+            android:layout_marginTop="5dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="5dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="5dp"
+            />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/menu_inferior" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fBtnAgregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/agregar"
+        android:theme="@style/MyFloatingButton"
+        app:rippleColor="@color/colorMadera"
+        app:layout_constraintBottom_toTopOf="@id/navigation"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="10dp"
+        />
+
+</android.support.constraint.ConstraintLayout>

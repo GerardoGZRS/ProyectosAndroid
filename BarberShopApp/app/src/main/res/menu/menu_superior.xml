@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_superior_otros"
+        android:icon="@drawable/otros"
+        app:showAsAction="always"
+        tools:ignore="MenuTitle"
+        />
+
+
+    <item
+        android:id="@+id/menu_superior_salir"
+        android:icon="@drawable/salir"
+        app:showAsAction="always"
+        tools:ignore="MenuTitle" />
+
+
+
+</menu>
