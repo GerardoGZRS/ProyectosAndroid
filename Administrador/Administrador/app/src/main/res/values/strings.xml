@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Administrador</string>
+    <string name="textNameUser">Nombre Usuario</string>
+    <string name="password">Password</string>
+    <string name="btnIngresar">Ingresar</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="menuPrincipal">Menú Principal</string>
+    <string name="produccion">Producción</string>
+    <string name="perfiles">Perfiles</string>
+    <string name="finanzas">Finanzas</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="reportes">Reportes</string>
+    <string name="empleados">Empleados</string>
+    <string name="maquilero">Maquileros</string>
+    <string name="proveedor">Proveedores</string>
+    <string name="cliente">Clientes</string>
+    <string name="ingresarClientes">Ingresar Clientes</string>
+    <string name="consultarClientes">Consultar Clientes</string>
+    <string name="eliminarClientes">Eliminar Clientes</string>
+    <string name="ingresarEmpleados">Ingresar Empleados</string>
+    <string name="consultarEmpleados">Consultar Empleados</string>
+    <string name="eliminarEmpleados">Eliminar Empleados</string>
+    <string name="insertarMaquilero">Insertar Maquilero</string>
+    <string name="consultarMaquilero">Consultar Maquilero</string>
+    <string name="eliminarMaquilero">Eliminar Maquilero</string>
+    <string name="insertarProveedores">Insertar Proveedores</string>
+    <string name="consultarProveedores">Consultar Proveedores</string>
+    <string name="eliminarProveedores">Eliminar Proveedores</string>
+    //Clientes
+    <string name="nombreCliente">Nombre Cliente</string>
+    <string name="paternoCliente">Apellido Paterno</string>
+    <string name="maternoCliente">Apellido Materno</string>
+    <string name="direccionCliente">Dirección</string>
+    <string name="telefonoCliente">Telefono Cliente</string>
+    <string name="tipoVentaCliente">Tipo Venta</string>
+    <string name="tipoPagoCliente">Tipo Pago</string>
+    <string name="userNameCliente">Nombre Usuario</string>
+    <string name="passwordCliente">Password</string>
+    //Empleados
+    <string name="nombreEmpleado">Nombre Empleado</string>
+    <string name="paternoEmpleado">Apellido Paterno</string>
+    <string name="maternoEmpleado">Apellido Materno</string>
+    <string name="direccionEmpleado">Dirección</string>
+    <string name="telefonoEmpleado">Telefono Empleado</string>
+    <string name="areaEmpleado">Area Empleado</string>
+    <string name="sueldoEmpleado">Sueldo Empleado</string>
+    <string name="UserNameEmpleado">Nombre Usuario</string>
+    <string name="passwordEmpleado">Password</string>
+    //Proveedores
+    <string name="nombreProveedor">Nombre Proveedor</string>
+    <string name="paternoProveedor">Apellido Paterno</string>
+    <string name="maternoProveedor">Apellido Materno</string>
+    <string name="direccionProveedor">Dirección</string>
+    <string name="telefonoProveedor">Telefono Proveedor</string>
+    <string name="tipoPagoProveedor">Tipo Pago</string>
+    <string name="userNameProveedor">Nombre Usuario</string>
+    <string name="passwordProveedor">Password</string>
+    //Maquilero
+    <string name="nombreMaquilero">Nombre Maquilero</string>
+    <string name="paternoMaquilero">Apellido Paterno</string>
+    <string name="maternoMaquilero">Apellido Materno</string>
+    <string name="direccionMaquilero">DIrección</string>
+    <string name="telefonoMaquilero">Telefono Maquilero</string>
+    <string name="funcionMaquilero">Función Maquilero</string>
+    <string name="tipoPagoMaquilero">Tipo Pago</string>
+    <string name="userNameMaquilero">Nombre Usuario</string>
+    <string name="passwordMaquilero">Password</string>
+
+    <string name="btnActualizar">Actualizar</string>
+</resources>

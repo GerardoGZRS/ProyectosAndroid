@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.proveedores.InsertarProveedoresActivity">
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/menu_inferior" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toTopOf="@id/navigation"
+        android:layout_marginBottom="5dp"
+        >
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textNombreProveedor"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/nombreProveedor"
+                app:layout_constraintBottom_toTopOf="@+id/txtNombreProveedor"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <EditText
+                android:id="@+id/txtNombreProveedor"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                app:layout_constraintTop_toBottomOf="@id/textNombreProveedor"
+                android:layout_marginTop="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/textPaternoProveedor"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:id="@id/textPaternoProveedor"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/paternoProveedor"
+                app:layout_constraintTop_toBottomOf="@id/txtNombreProveedor"
+                android:layout_marginTop="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/txtPaternoProveedor"
+                android:layout_marginBottom="5dp"
+                />
+
+            <EditText
+                android:id="@id/txtPaternoProveedor"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                app:layout_constraintTop_toBottomOf="@id/textPaternoProveedor"
+                android:layout_marginTop="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/textMaternoProveedor"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/textMaternoProveedor"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/maternoMaquilero"
+                app:layout_constraintTop_toBottomOf="@id/txtPaternoProveedor"
+                android:layout_marginTop="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/txtMaternoProveedor"
+                />
+
+            <EditText
+                android:id="@+id/txtMaternoProveedor"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                app:layout_constraintTop_toBottomOf="@id/textMaternoProveedor"
+                android:layout_marginTop="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/textDireccion"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/textDireccion"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/direccionProveedor"
+                app:layout_constraintTop_toBottomOf="@id/txtMaternoProveedor"
+                android:layout_marginTop="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/txtDireccion"
+                android:layout_marginBottom="5dp"
+                />
+
+            <EditText
+                android:id="@+id/txtDireccion"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                app:layout_constraintTop_toBottomOf="@id/textDireccion"
+                android:layout_marginTop="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/textTelefonoProveedor"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/textTelefonoProveedor"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/telefonoProveedor"
+                app:layout_constraintBottom_toTopOf="@+id/txtTelefonoProveedor"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textDireccion"
+                app:layout_constraintVertical_chainStyle="spread_inside" />
+
+            <EditText
+                android:id="@+id/txtTelefonoProveedor"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                app:layout_constraintTop_toBottomOf="@id/textTelefonoProveedor"
+                android:layout_marginTop="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/textTipoPagoProveedor"
+                android:layout_marginBottom="5dp"
+                />
+
+
+
+            <TextView
+                android:id="@+id/textTipoPagoProveedor"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/tipoPagoProveedor"
+                app:layout_constraintTop_toBottomOf="@id/txtTelefonoProveedor"
+                android:layout_marginTop="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/txtTipoPagoProveedor"
+                android:layout_marginBottom="5dp"
+                />
+
+            <EditText
+                android:id="@+id/txtTipoPagoProveedor"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                app:layout_constraintTop_toBottomOf="@id/textTipoPagoProveedor"
+                android:layout_marginTop="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/textUserProveedor"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/textUserProveedor"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/userNameProveedor"
+                app:layout_constraintTop_toBottomOf="@id/txtTipoPagoProveedor"
+                android:layout_marginTop="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/txtUserProveedor"
+                />
+
+            <EditText
+                android:id="@+id/txtUserProveedor"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                app:layout_constraintTop_toBottomOf="@+id/textUserProveedor"
+                android:layout_marginTop="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/textPasswordMaquilero"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/textPasswordProveedor"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/passwordProveedor"
+                app:layout_constraintTop_toBottomOf="@+id/txtUserProveedor"
+                android:layout_marginTop="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/txtPasswordProveedor"
+                android:layout_marginBottom="5dp"
+                />
+
+            <EditText
+                android:id="@+id/txtPasswordProveedor"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                app:layout_constraintTop_toBottomOf="@id/textPasswordProveedor"
+                android:layout_marginTop="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/btnInsertarProveedor"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnInsertarProveedor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnIngresar"
+                app:layout_constraintTop_toBottomOf="@id/txtPasswordProveedor"
+                android:layout_marginTop="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="5dp"
+                />
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.proveedores.MenuProveedoresActivity">
+    <Button
+        android:id="@+id/btnIngresarProveedor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/insertarProveedores"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="5dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnConsultarProveedor"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Button
+        android:id="@+id/btnConsultarProveedor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/consultarProveedores"
+        app:layout_constraintTop_toBottomOf="@id/btnIngresarProveedor"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnEliminarProveedor"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Button
+        android:id="@+id/btnEliminarProveedor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/eliminarProveedores"
+        app:layout_constraintTop_toBottomOf="@id/btnConsultarProveedor"
+        android:layout_marginTop="5dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintBottom_toTopOf="@id/navigation"
+        android:layout_marginBottom="5dp"
+        />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/menu_inferior" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_inferior_perfiles"
+        android:icon="@drawable/perfiles"
+        android:title="@string/perfiles" />
+    <item
+        android:id="@+id/menu_inferior_produccion"
+        android:icon="@drawable/produccion"
+        android:title="@string/produccion" />
+    <item
+        android:id="@+id/menu_inferior_finanzas"
+        android:icon="@drawable/finanzas"
+        android:title="@string/finanzas" />
+    <item
+        android:id="@+id/menu_inferior_reportes"
+        android:icon="@drawable/reportes"
+        android:title="@string/reportes" />
+    <item
+        android:id="@+id/menu_inferior_ayuda"
+        android:icon="@drawable/ayuda"
+        android:title="@string/ayuda" />
+</menu>
